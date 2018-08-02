@@ -1,0 +1,65 @@
+
+/*universal initial setting*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100vw;
+
+	
+}
+
+html, body{
+	max-width: 100%;
+	overflow: hidden;
+	background-image: url('../images/giphy.gif');
+	 /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#unknown{
+	height: 800px;
+	width: 300px;
+}
+
+#me{
+	height: 800px;
+	width: 300px;	
+}
+
+#you{
+	/*text-align: center;*/
+}
+
+.left{
+	height: 150px;
+	width: 250px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border: 5px solid black;
+}
+
+.right{
+	height: 150px;
+	width: 250px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border: 5px solid black;
+}
+
+#okay{
+	width:60px;
+	/*display: none;*/
+}
+
+#mestat, #youstat{
+	color: red;
+}
